@@ -10,7 +10,6 @@ def join_ingredients(src)
   results = []
   row_index = 0 
   while row_index < src.count do 
-    row_index = 0
     phrase = "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
     results << phrase
     row_index += 1
